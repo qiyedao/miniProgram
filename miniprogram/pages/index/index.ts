@@ -24,6 +24,11 @@ Page({
       envVersion:'trial'
     })
   },
+  navigate(){
+    wx.navigateTo({
+      url:'/packagesMe/pages/info/info'
+    })
+  },
   onLoad() {
     // @ts-ignore
     if (wx.getUserProfile) {

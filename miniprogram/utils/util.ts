@@ -28,7 +28,7 @@ export function compareVersion(v1Param: string, v2Param: string) {
 export const showVersionTip = () => {
   const version = wx.getAppBaseInfo().SDKVersion
 
-  if (compareVersion(version, ' 2.21.0') >= 0) {
+  if (compareVersion(version, ' 2.21.4') >= 0) {
   //  版本之上
   
   } else {
