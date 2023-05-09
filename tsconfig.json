@@ -16,6 +16,11 @@
     "noUnusedParameters": true,
     "strict": true,
     "strictPropertyInitialization": true,
+    "baseUrl": ".",
+    "types": ["miniprogram-api-typings"],
+    "paths": {
+      "@vant/weapp/*": ["./miniprogram/miniprogram_npm/@vant/weapp/dist/*"]
+    },
     "lib": ["ES2020"],
     "typeRoots": [
       "./typings"

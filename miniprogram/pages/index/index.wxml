@@ -20,4 +20,5 @@
   <view  bindtap="click" class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <van-button type="primary"> img</van-button>
 </view>
