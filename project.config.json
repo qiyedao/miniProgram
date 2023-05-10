@@ -25,6 +25,7 @@
     "enhance": true,
     "showShadowRootInWxmlPanel": true,
     "packNpmManually": false,
+    "packNpmRelationList": [],
     "minifyWXSS": true,
     "useStaticServer": true,
     "showES6CompileOption": false,

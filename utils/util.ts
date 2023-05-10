@@ -28,14 +28,14 @@ export function compareVersion(v1Param: string, v2Param: string) {
 export const showVersionTip = () => {
   const version = wx.getAppBaseInfo().SDKVersion
 
-  if (compareVersion(version, ' 2.21.4') >= 0) {
+  if (compareVersion(version, '2.21.4') >= 0) {
   //  版本之上
   
   } else {
-    // 如果希望用户在最新版本的客户端上体验您的小程序，可以这样子提示
+    // 如果希望用户在最新版本的客户端上体验您的小程序，可以这样子提�?
     wx.showModal({
       title: '提示',
-      content: '当前微信版本过低，无法使用该功能，请升级到最新微信版本后重试。'
+      content: '当前微信版本过低，无法使用该功能，请升级到最新微信版本后重试�?
     })
   }
 
