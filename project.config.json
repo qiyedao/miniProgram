@@ -4,7 +4,7 @@
     "ignore": [],
     "include": []
   },
-  "miniprogramRoot": "miniprogram/",
+  "miniprogramRoot": "",
   "compileType": "miniprogram",
   "projectname": "ts-less-demo",
   "setting": {
@@ -24,13 +24,7 @@
     "uploadWithSourceMap": true,
     "enhance": true,
     "showShadowRootInWxmlPanel": true,
-    "packNpmManually": true,
-    "packNpmRelationList": [
-      {
-        "packageJsonPath": "./package.json",
-        "miniprogramNpmDistDir": "./miniprogram/"
-      }
-    ],
+    "packNpmManually": false,
     "minifyWXSS": true,
     "useStaticServer": true,
     "showES6CompileOption": false,
@@ -46,7 +40,7 @@
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {},
-  "srcMiniprogramRoot": "miniprogram/",
+  "srcMiniprogramRoot": "",
   "appid": "wxaf3cc1f4fb7a5137",
   "libVersion": "2.31.0",
   "editorSetting": {
