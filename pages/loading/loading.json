@@ -1,5 +1,5 @@
 {
-  "usingComponents": {
-    "vant-loading":"/miniprogram_npm/@vant/weapp/loading/index"
-  }
+    "usingComponents": {
+        "vant-loading": "/miniprogram_npm/@vant/weapp/loading/index"
+    }
 }

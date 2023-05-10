@@ -9,7 +9,8 @@
      {
          "root": "packagesIndex",
          "pages": [
-             "pages/login/login"
+             "pages/login/login",
+             "pages/list/list"
          ]
      },
      {
