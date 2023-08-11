@@ -3,14 +3,15 @@ import { showVersionTip } from "./utils/util"
 // app.ts
 App<IAppOption>({
     globalData: {
-
+        statusBarHeight: 0
     },
     onLaunch() {
 
         showVersionTip()
         wx.getSystemInfo().then(res => {
             console.log(res, 'res');
-            this.globalData.statusBarHeight = res.statusBarHeight
+
+            wx.setStorageSync('statusBarHeight', res.statusBarHeight)
         })
         // 登录
         // wx.login({

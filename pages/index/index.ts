@@ -88,7 +88,7 @@ Page({
                 appId: "wxeb4a6201a90783f4",
             },
         ],
-        statusBarHeight: app.globalData.statusBarHeight,
+        statusBarHeight: wx.getStorageSync('statusBarHeight'),
     },
 
     navigateMP(e: any) {
@@ -98,6 +98,8 @@ Page({
         });
     },
     onLoad() {
+        console.log(app, 'app');
+
         // @ts-ignore
         if (wx.getUserProfile) {
             this.setData({
