@@ -36,10 +36,14 @@
       "outputPath": ""
     },
     "disableUseStrict": false,
-    "minifyWXML": true
+    "minifyWXML": true,
+    "condition": true,
+    "useIsolateContext": true
   },
   "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
+  "simulatorPluginLibVersion": {
+    "wxext14566970e7e9f62": "2.27.3"
+  },
   "condition": {},
   "srcMiniprogramRoot": "",
   "appid": "wx150f8c5b4d9f76f6",
@@ -47,5 +51,6 @@
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
-  }
+  },
+  "projectArchitecture": "multiPlatform"
 }

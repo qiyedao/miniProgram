@@ -1,6 +1,8 @@
 /**app.wxss**/
 @backgroundColor: rgb(226, 231, 235);
-
+page{
+  --tabs-line-height:44px;
+}
 .container {
   height: 100%;
   min-height: 100vh;
@@ -9,7 +11,7 @@
 }
 
 .content {
-  height: 100vh;
+  height: calc(100vh - var(--tabs-line-height));
   width: 100%;
   background-color: red;
 }
