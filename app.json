@@ -1,33 +1,29 @@
 {
-  "pages": [
-      "pages/index/index",
-    "pages/loading/loading",
-
-    "pages/me/me"
-    
-  ],
-  "subPackages": [
-     {
-         "root": "packagesIndex",
-         "pages": [
-             "pages/login/login",
-             "pages/list/list"
-         ]
-     },
-     {
-        "root": "packagesMe",
-        "pages": [
-            "pages/info/info"
-        ]
-    }
-  ],
- 
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "实用导航",
-    "navigationBarTextStyle": "black"
-  },
-  "lazyCodeLoading": "requiredComponents",
-  "sitemapLocation": "sitemap.json"
+    "pages": [
+        "pages/index/index",
+        "pages/loading/loading",
+        "pages/me/me"
+    ],
+    "subPackages": [
+        {
+            "root": "packagesIndex",
+            "pages": [
+                "pages/login/login",
+                "pages/list/list"
+            ]
+        },
+        {
+            "root": "packagesMe",
+            "pages": [
+                "pages/info/info"
+            ]
+        }
+    ],
+    "darkmode": true,
+    "themeLocation": "theme.json",
+    "window": {
+        "navigationStyle": "custom"
+    },
+    "lazyCodeLoading": "requiredComponents",
+    "sitemapLocation": "sitemap.json"
 }

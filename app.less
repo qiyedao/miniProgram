@@ -1,17 +1,31 @@
 /**app.wxss**/
-@backgroundColor: rgb(226, 231, 235);
-page{
-  --tabs-line-height:44px;
+@backgroundColor: rgba(226, 231, 235, 1);
+@backgroundDarkColor: rgb(29, 23, 23);
+@backgroundPageColor: rgba(255, 255, 255, 1);
+@backgroundPageDarkColor: rgba(77, 71, 71, 1);
+
+page {
+    --tabs-line-height: 44px;
+    --backgroundPageColor: @backgroundPageColor;
+    --backgroundPageDarkColor: @backgroundPageDarkColor;
+
 }
+
 .container {
-  height: 100%;
-  min-height: 100vh;
-  box-sizing: border-box;
-  background-color: @backgroundColor;
+    height: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: @backgroundColor;
 }
 
 .content {
-  height: calc(100vh - var(--tabs-line-height));
-  width: 100%;
-  background-color: red;
+    height: calc(100vh - var(--tabs-line-height));
+    width: 100%;
+    background-color: red;
+}
+
+@media (prefers-color-scheme: dark) {
+    .container {
+        background-color: @backgroundDarkColor;
+    }
 }

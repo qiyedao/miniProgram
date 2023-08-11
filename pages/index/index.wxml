@@ -1,7 +1,10 @@
 <!--index.wxml-->
-<view class="container">
-  <view bind:tap="navigateMP" class="app-item" wx:for="{{list}}"  data-item="{{item}}">
-    <image class="icon" src="{{item.icon}}" mode=""/>
-    <view class="name">{{item.name}}</view>
-  </view>
-</view>
+<scroll-view scroll-y="{{true}}">
+    <view style="height: {{statusBarHeight+46}}px;"></view>
+    <view class="container">
+        <view bind:tap="navigateMP" wx:key="index" class="app-item" wx:for="{{list}}" data-item="{{item}}">
+            <image class="icon" src="{{item.icon}}" mode="" />
+            <view class="name">{{item.name}}</view>
+        </view>
+    </view>
+</scroll-view>
