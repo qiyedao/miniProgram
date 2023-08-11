@@ -4,12 +4,27 @@ const app = getApp<IAppOption>()
 
 Page({
     data: {
-        motto: 'Hello World',
-        userInfo: {},
-        hasUserInfo: false,
-        canIUse: wx.canIUse('button.open-type.getUserInfo'),
-        canIUseGetUserProfile: false,
-        canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName') // 如需尝试获取用户信息可改为false
+    list:[
+      {
+        name:'国网江苏电力营业厅',
+        icon:"/assets/国网江苏电力营业厅.jpg",
+        appId:'wx203b37ad2ad5d2a6'
+      },
+      {
+        name:'生活缴费',
+        icon:"/assets/生活缴费.jpg",
+        appId:'wxd2ade0f25a874ee2'
+      }, {
+        name:'手机充值',
+        icon:"/assets/手机充值.jpg",
+        appId:'wxad3150031786d672'
+      },{
+        name:'微信支付有优惠',
+        icon:"/assets/微信支付有优惠.jpg",
+        appId:'wxe73c2db202c7eebf'
+        
+      }
+    ]   
     },
     // 事件处理函数
     bindViewTap() {
@@ -17,17 +32,13 @@ Page({
             url: '../logs/logs',
         })
     },
-    click() {
-        wx.navigateToMiniProgram({
-            appId: 'wxc6ca6087c3e2af43',
-            path: '/pages/loading/loading?path=/pages/academics/list/list&pathType=toolShare&tab=1',
-            envVersion: 'trial'
-        })
-    },
-    navigate() {
-        wx.navigateTo({
-            url: '/packagesIndex/pages/list/list'
-        })
+    
+    navigateMP(e:any) {
+      console.log(e);
+      wx.navigateToMiniProgram({
+        appId:e.currentTarget.dataset.item.appId,
+      })
+
     },
     onLoad() {
         // @ts-ignore
