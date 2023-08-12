@@ -1,6 +1,5 @@
 <!--index.wxml-->
 <scroll-view scroll-y="{{true}}">
-    <view class="navbar" style="height: {{statusBarHeight+44}}px;"></view>
     <view class="container">
         <view bind:tap="navigateMP" wx:key="index" class="app-item" wx:for="{{list}}" data-item="{{item}}">
             <image class="icon" src="{{item.icon}}" mode="" />

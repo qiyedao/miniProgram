@@ -8,7 +8,7 @@
         "bgColorBottom": "#efefef"
     },
     "dark": {
-        "navBgColor": "#191919",
+        "navBgColor": "#000000",
         "navTxtStyle": "white",
         "bgColor": "#1f1f1f",
         "bgTxtStyle": "dark",

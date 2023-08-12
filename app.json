@@ -1,7 +1,8 @@
 {
     "pages": [
-        "pages/index/index",
         "pages/loading/loading",
+        "pages/index/index",
+        "pages/time/time",
         "pages/me/me"
     ],
     "subPackages": [
@@ -22,7 +23,7 @@
     "darkmode": true,
     "themeLocation": "theme.json",
     "window": {
-        "navigationStyle": "custom"
+        "navigationBarBackgroundColor": "@navBgColor"
     },
     "lazyCodeLoading": "requiredComponents",
     "sitemapLocation": "sitemap.json"

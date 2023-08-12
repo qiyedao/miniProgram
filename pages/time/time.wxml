@@ -1,0 +1,13 @@
+<!--pages/time/time.wxml-->
+<view class="container">
+
+    <picker bindchange="bindDateChange" value="{{date}}" end="{{endTime}}" mode="date">
+        <view class="placeholder">
+            {{date?date:'请选择购买时间'}}
+        </view>
+    </picker>
+    <view class="days">
+        {{days !==null ?'已使用'+days+"天":'已使用--天'}}
+    </view>
+
+</view>
