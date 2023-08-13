@@ -6,47 +6,10 @@ Page({
     data: {
         list: [
             {
-                name: "充值",
-                icon: "/assets/充值.svg",
-                type: 'url',
-                url: "/pages/recharge/recharge",
-            },
-
-            {
-                name: "娱乐",
-                icon: "/assets/娱乐.svg",
-                type: 'url',
-                url: "/pages/enjoy/enjoy",
-            },
-            {
-                name: "购物",
-                icon: "/assets/购物.svg",
-                type: 'url',
-                url: "/pages/shopping/shopping",
-            },
-            {
-                name: "微信支付有优惠",
-                icon: "/assets/微信支付有优惠.jpg",
-                appId: "wxe73c2db202c7eebf",
-            },
-
-            {
-                name: "上海车展",
-                icon: "/assets/上海车展.jpg",
-                appId: "wx9659f424c6057c54",
-            },
-            {
                 name: "小程序助手",
                 icon: "/assets/小程序助手.jpg",
                 appId: "wxcff7381e631cf54e",
             },
-            // {
-            //     name: "开发",
-            //     icon: "/assets/开发.svg",
-            //     type: 'url',
-            //     url: "/pages/develop/develop",
-
-            // },
 
         ],
         statusBarHeight: wx.getStorageSync('statusBarHeight'),

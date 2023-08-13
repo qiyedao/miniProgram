@@ -3,6 +3,12 @@
         "pages/loading/loading",
         "pages/index/index",
         "pages/time/time",
+        "pages/shopping/shopping",
+        "pages/recharge/recharge",
+        "pages/life/life",
+        "pages/trip/trip",
+        "pages/enjoy/enjoy",
+        "pages/develop/develop",
         "pages/me/me"
     ],
     "subPackages": [
@@ -23,7 +29,8 @@
     "darkmode": true,
     "themeLocation": "theme.json",
     "window": {
-        "navigationBarBackgroundColor": "@navBgColor"
+        "navigationBarBackgroundColor": "@navBgColor",
+        "navigationBarTextStyle": "@navTxtStyle"
     },
     "lazyCodeLoading": "requiredComponents",
     "sitemapLocation": "sitemap.json"
