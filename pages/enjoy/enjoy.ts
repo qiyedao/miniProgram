@@ -103,4 +103,10 @@ Page({
             hasUserInfo: true,
         });
     },
+    onShareAppMessage() {
+        return {
+            title: '生活常用小助手',
+            path: '/pages/enjoy/enjoy',
+        }
+    },
 });

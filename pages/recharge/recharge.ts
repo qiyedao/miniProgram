@@ -15,7 +15,7 @@ Page({
                 icon: "/assets/手机充值.jpg",
                 appId: "wxad3150031786d672",
             },
-            
+
 
             {
                 name: "中国移动",
@@ -107,5 +107,11 @@ Page({
             userInfo: e.detail.userInfo,
             hasUserInfo: true,
         });
+    },
+    onShareAppMessage() {
+        return {
+            title: '生活常用小助手',
+            path: '/pages/recharge/recharge',
+        }
     },
 });

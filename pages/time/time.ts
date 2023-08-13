@@ -72,6 +72,9 @@ Page({
      * 用户点击右上角分享
      */
     onShareAppMessage() {
-
-    }
+        return {
+            title: '生活常用小助手',
+            path: '/pages/time/time',
+        }
+    },
 })
