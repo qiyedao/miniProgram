@@ -25,9 +25,12 @@ export function compareVersion(v1Param: string, v2Param: string) {
 }
 
 export const showVersionTip = () => {
-  
+    console.log('getAppBaseInfo',wx.canIUse('getAppBaseInfo'));
+    
     if (wx.getAppBaseInfo) {
         const version = wx.getAppBaseInfo().SDKVersion;
+        console.log('SDK',version);
+        
         if (compareVersion(version, '2.21.4') >= 0) {
             autoUpdate()
             //  版本之上
