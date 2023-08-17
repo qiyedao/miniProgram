@@ -42,11 +42,7 @@ Page({
                 icon: "/assets/麦当劳.jpg",
                 appId: "wx25f982a55e60a540",
             },
-            {
-                name: "上海车展",
-                icon: "/assets/上海车展.jpg",
-                appId: "wx9659f424c6057c54",
-            },
+           
 
 
         ],
