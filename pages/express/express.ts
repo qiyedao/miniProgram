@@ -29,8 +29,8 @@ Page({
         appId: "wxe37801988179d0a5",
       },
       {
-        name: "德邦",
-        icon: "/assets/德邦.jpg",
+        name: "德邦快递",
+        icon: "/assets/德邦快递.jpg",
         appId: "wxa1ebeeb0ed47f0b2",
       }, {
         name: "美团跑腿",
@@ -45,7 +45,7 @@ Page({
         icon: "/assets/货拉拉.jpg",
         appId: "wxb1a70937ee94c194",
       },
-    
+
       {
         name: "滴滴货运",
         icon: "/assets/滴滴货运.jpg",
