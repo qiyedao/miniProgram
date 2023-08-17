@@ -53,11 +53,7 @@ Page({
 
 
 
-            {
-                name: "京东快递",
-                icon: "/assets/京东快递.jpg",
-                appId: "wx73247c7819d61796",
-            },
+           
             {
                 name: "今世缘官方商城",
                 icon: "/assets/今世缘.jpg",

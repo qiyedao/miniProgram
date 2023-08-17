@@ -25,11 +25,7 @@ Page({
                 icon: "/assets/大麦.jpg",
                 appId: "wx938b41d0d7e8def0",
             },
-            {
-                name: "同城旅行",
-                icon: "/assets/同城旅行.jpg",
-                appId: "wx336dcaf6a1ecf632",
-            },
+           
             {
                 name: "美团",
                 icon: "/assets/美团.jpg",

@@ -6,47 +6,51 @@ Page({
   data: {
     list: [
       {
-        name: "同城旅行",
-        icon: "/assets/同城旅行.jpg",
-        appId: "wx336dcaf6a1ecf632",
-    },
+        name: "京东快递",
+        icon: "/assets/京东快递.jpg",
+        appId: "wx73247c7819d61796",
+      }, {
+        name: "顺丰快递",
+        icon: "/assets/顺丰快递.jpg",
+        appId: "wxd4185d00bf7e08ac",
+      }, {
+        name: "丰巢",
+        icon: "/assets/丰巢.jpg",
+        appId: "wxf953eb11611bb594",
+      }, {
+        name: "EMS",
+        icon: "/assets/EMS.jpg",
+        appId: "wx63e410bc2c6a792e",
+      },
+
       {
-        name: "滴滴出行",
-        icon: "/assets/滴滴出行.jpg",
-        appId: "wxaf35009675aa0b2a",
+        name: "极兔快递",
+        icon: "/assets/极兔快递.jpg",
+        appId: "wxe37801988179d0a5",
       },
       {
-        name: "T3",
-        icon: "/assets/T3.jpg",
-        appId: "wxe241a1d8464bc578",
+        name: "德邦",
+        icon: "/assets/德邦.jpg",
+        appId: "wxa1ebeeb0ed47f0b2",
       }, {
-        name: "滴滴代驾",
-        icon: "/assets/滴滴代驾.jpg",
-        appId: "wxc591d03d429cf06e",
-      }, 
+        name: "美团跑腿",
+        icon: "/assets/美团跑腿.jpg",
+        appId: "wx84d3c06952bb4072",
+      }, {
+        name: "UU跑腿",
+        icon: "/assets/UU跑腿.jpg",
+        appId: "wx453615a79bad971f",
+      }, {
+        name: "货拉拉",
+        icon: "/assets/货拉拉.jpg",
+        appId: "wxb1a70937ee94c194",
+      },
+    
       {
-        name: "高德代驾",
-        icon: "/assets/高德代驾.jpg",
-        appId: "wxe56a6314f0b95129",
-      }, 
-      {
-        name: "腾讯出行",
-        icon: "/assets/腾讯出行.jpg",
-        appId: "wx65cc950f42e8fff1",
-      }, 
-      {
-        name: "南方航空",
-        icon: "/assets/南方航空.jpg",
-        appId: "wx729238547ac7a14c",
-      },  {
-        name: "东方航空",
-        icon: "/assets/东方航空.jpg",
-        appId: "wxc1d4e8f52a93da7e",
-      }, 
-
-      
-      
-      
+        name: "滴滴货运",
+        icon: "/assets/滴滴货运.jpg",
+        appId: "wxab1642da834a1339",
+      },
 
     ],
     statusBarHeight: wx.getStorageSync('statusBarHeight'),
