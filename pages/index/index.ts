@@ -36,6 +36,12 @@ Page({
         url: "/pages/trip/trip",
       },
       {
+        name: "政务",
+        icon: "/assets/政务.svg",
+        type: 'url',
+        url: "/pages/service/service",
+      },
+      {
         name: "微信支付有优惠",
         icon: "/assets/微信支付有优惠.jpg",
         appId: "wxe73c2db202c7eebf",

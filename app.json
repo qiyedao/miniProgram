@@ -10,6 +10,7 @@
         "pages/enjoy/enjoy",
         "pages/express/express",
         "pages/develop/develop",
+        "pages/service/service",
         "pages/me/me"
     ],
     "subPackages": [
