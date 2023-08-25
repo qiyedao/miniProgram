@@ -64,6 +64,16 @@ Page({
                 icon: "/assets/拼多多.jpg",
                 appId: "wx32540bd863b27570",
             },
+            {
+              name: "汽车之家",
+              icon: "/assets/汽车之家.jpg",
+              appId: "wx84dd50b996d3d862",
+          },
+          {
+              name: "懂车帝",
+              icon: "/assets/懂车帝.jpg",
+              appId: "wx0688e7bcdd17106e",
+          },
 
 
         ],
