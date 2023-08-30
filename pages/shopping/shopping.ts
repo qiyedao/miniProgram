@@ -75,8 +75,35 @@ Page({
         appId: "wx32540bd863b27570",
       },
 
-
-
+      {
+        name: "美的",
+        icon: "/assets/美的.jpg",
+        appId: "wx255b67a1403adbc2",
+      },
+      {
+        name: "海尔",
+        icon: "/assets/海尔.jpg",
+        appId: "wxe24b2f1f4e378891",
+      },
+      {
+        name: "海信",
+        icon: "/assets/海信.jpg",
+        appId: "wx719db182a9bc19cd",
+      },
+      {
+        name: "长虹",
+        icon: "/assets/长虹.jpg",
+        appId: "wxae3c5a3987427db8",
+      }, {
+        name: "创维",
+        icon: "/assets/创维.jpg",
+        appId: "wx4f9e0b7a4c69c67a",
+      },
+      {
+        name: "TCL",
+        icon: "/assets/tcl.jpg",
+        appId: "wxce15aa7537a028cd",
+      },
       {
         name: "今世缘官方商城",
         icon: "/assets/今世缘.jpg",
