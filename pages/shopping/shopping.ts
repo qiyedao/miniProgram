@@ -58,13 +58,22 @@ Page({
         icon: "/assets/中兴.jpg",
         appId: "wx0744aecf7a03eedc",
       },
+      {
+        name: "三星商城",
+        icon: "/assets/三星.jpg",
+        appId: "wx49b8d640d1fcb73e",
+      },
 
       {
         name: "京东购物",
         icon: "/assets/京东购物.jpg",
         appId: "wx91d27dbf599dff74",
       },
-
+      {
+        name: "拼多多",
+        icon: "/assets/拼多多.jpg",
+        appId: "wx32540bd863b27570",
+      },
 
 
 
@@ -74,10 +83,21 @@ Page({
         appId: "wxde8445002ae37f3a",
       },
       {
-        name: "拼多多",
-        icon: "/assets/拼多多.jpg",
-        appId: "wx32540bd863b27570",
+        name: "洋河",
+        icon: "/assets/洋河.jpg",
+        appId: "wx1a8fecad6b49dbc1",
       },
+      {
+        name: "五粮液",
+        icon: "/assets/五粮液.jpg",
+        appId: "wx46a9c6347b48bc1d",
+      },
+      {
+        name: "泸州老窖",
+        icon: "/assets/泸州老窖.jpg",
+        appId: "wx1e87a0936b5a866f",
+      },
+
 
 
     ],
