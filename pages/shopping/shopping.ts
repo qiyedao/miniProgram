@@ -63,7 +63,11 @@ Page({
         icon: "/assets/三星.jpg",
         appId: "wx49b8d640d1fcb73e",
       },
-
+      {
+        name: "华硕商城",
+        icon: "/assets/华硕.jpg",
+        appId: "wx7f91f632b33a9cc6",
+      },
       {
         name: "京东购物",
         icon: "/assets/京东购物.jpg",
