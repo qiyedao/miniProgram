@@ -19,9 +19,9 @@ Page({
             },
             {
               name: "个税计算",
-              icon: "/assets/time.svg",
+              icon: "/assets/tax.svg",
               type: 'url',
-              url: '/pages/time/time',
+              url: '/pages/tax/tax',
           },
 
         ],
