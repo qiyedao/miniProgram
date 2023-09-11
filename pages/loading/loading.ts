@@ -16,7 +16,13 @@ Page({
                 icon: "/assets/share.svg",
                 type: 'url',
                 url: '/pages/index/index',
-            }
+            },
+            {
+              name: "个税计算",
+              icon: "/assets/time.svg",
+              type: 'url',
+              url: '/pages/time/time',
+          },
 
         ],
         statusBarHeight: wx.getStorageSync('statusBarHeight'),

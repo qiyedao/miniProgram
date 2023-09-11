@@ -11,7 +11,8 @@
         "pages/express/express",
         "pages/develop/develop",
         "pages/service/service",
-        "pages/me/me"
+        "pages/me/me",
+        "pages/tax/tax"
     ],
     "subPackages": [
         {
