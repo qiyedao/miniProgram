@@ -12,6 +12,12 @@ Page({
                 url: '/pages/time/time',
             },
             {
+                name: "车贷计算器",
+                icon: "/assets/car.svg",
+                type: 'url',
+                url: '/pages/car/car',
+            },
+            {
                 name: "第三方分享",
                 icon: "/assets/share.svg",
                 type: 'url',

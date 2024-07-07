@@ -1,0 +1,16 @@
+<van-cell-group>
+    <van-field custom-class="custom-class" data-name="total" value="{{ total }}" clearable label="贷款总额" type="number" placeholder="请输入" bind:change="onChange">
+        <van-cell slot="button" value="万元" />
+    </van-field>
+    <van-field custom-class="custom-class" data-name="time" value="{{ time }}" clearable label="贷款期限" type="number" placeholder="请输入" bind:change="onChange">
+        <van-cell slot="button" value="月" />
+    </van-field>
+    <van-field custom-class="custom-class" data-name="month" value="{{ month }}" clearable label="月供" type="number" placeholder="请输入" bind:change="onChange">
+        <van-cell slot="button" value="元" />
+    </van-field>
+
+
+    <van-field custom-class="custom-class" wx:if="{{rate}}" value="{{ rate }}" readonly label="年利率" type="number">
+        <van-cell slot="button" value="%" />
+    </van-field>
+</van-cell-group>

@@ -3,6 +3,7 @@
         "pages/loading/loading",
         "pages/index/index",
         "pages/time/time",
+        "pages/car/car",
         "pages/shopping/shopping",
         "pages/recharge/recharge",
         "pages/life/life",
