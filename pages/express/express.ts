@@ -6,64 +6,51 @@ Page({
   data: {
     list: [
       {
-        name: "充值",
-        icon: "/assets/充值.svg",
-        type: 'url',
-        url: "/pages/recharge/recharge",
-      },
-
-      {
-        name: "娱乐",
-        icon: "/assets/娱乐.svg",
-        type: 'url',
-        url: "/pages/enjoy/enjoy",
-      },
-      {
-        name: "购物",
-        icon: "/assets/购物.svg",
-        type: 'url',
-        url: "/pages/shopping/shopping",
+        name: "京东快递",
+        icon: "/assets/京东快递.jpg",
+        appId: "wx73247c7819d61796",
       }, {
-        name: "快递",
-        icon: "/assets/快递.svg",
-        type: 'url',
-        url: "/pages/express/express",
-      },
-      {
-        name: "出行",
-        icon: "/assets/出行.svg",
-        type: 'url',
-        url: "/pages/trip/trip",
-      },
-      {
-        name: "政务",
-        icon: "/assets/政务.svg",
-        type: 'url',
-        url: "/pages/service/service",
-      },
-      {
-        name: "微信支付有优惠",
-        icon: "/assets/微信支付有优惠.jpg",
-        appId: "wxe73c2db202c7eebf",
+        name: "顺丰快递",
+        icon: "/assets/顺丰快递.jpg",
+        appId: "wxd4185d00bf7e08ac",
+      }, {
+        name: "丰巢",
+        icon: "/assets/丰巢.jpg",
+        appId: "wxf953eb11611bb594",
+      }, {
+        name: "EMS",
+        icon: "/assets/EMS.jpg",
+        appId: "wx63e410bc2c6a792e",
       },
 
       {
-        name: "上海车展",
-        icon: "/assets/上海车展.jpg",
-        appId: "wx9659f424c6057c54",
+        name: "极兔快递",
+        icon: "/assets/极兔快递.jpg",
+        appId: "wxe37801988179d0a5",
       },
       {
-        name: "小程序助手",
-        icon: "/assets/小程序助手.jpg",
-        appId: "wxcff7381e631cf54e",
+        name: "德邦快递",
+        icon: "/assets/德邦快递.jpg",
+        appId: "wxa1ebeeb0ed47f0b2",
+      }, {
+        name: "美团跑腿",
+        icon: "/assets/美团跑腿.jpg",
+        appId: "wx84d3c06952bb4072",
+      }, {
+        name: "UU跑腿",
+        icon: "/assets/UU跑腿.jpg",
+        appId: "wx453615a79bad971f",
+      }, {
+        name: "货拉拉",
+        icon: "/assets/货拉拉.jpg",
+        appId: "wxb1a70937ee94c194",
       },
-      // {
-      //     name: "开发",
-      //     icon: "/assets/开发.svg",
-      //     type: 'url',
-      //     url: "/pages/develop/develop",
 
-      // },
+      {
+        name: "滴滴货运",
+        icon: "/assets/滴滴货运.jpg",
+        appId: "wxab1642da834a1339",
+      },
 
     ],
     statusBarHeight: wx.getStorageSync('statusBarHeight'),

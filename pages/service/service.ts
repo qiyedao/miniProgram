@@ -6,47 +6,47 @@ Page({
   data: {
     list: [
       {
-        name: "同城旅行",
-        icon: "/assets/同城旅行.jpg",
-        appId: "wx336dcaf6a1ecf632",
-    },
-      {
-        name: "滴滴出行",
-        icon: "/assets/滴滴出行.jpg",
-        appId: "wxaf35009675aa0b2a",
+        name: "国家政务服务",
+        icon: "/assets/国家政务.jpg",
+        appId: "wx2eec5fb00157a603",
       },
       {
-        name: "T3",
-        icon: "/assets/T3.jpg",
-        appId: "wxe241a1d8464bc578",
+        name: "国务院",
+        icon: "/assets/国务院.jpg",
+        appId: "wxbebb3cdd9b331046",
+      },
+      {
+        name: "移民局",
+        icon: "/assets/移民局.jpg",
+        appId: "wx4743d5c5f530d265",
       }, {
-        name: "滴滴代驾",
-        icon: "/assets/滴滴代驾.jpg",
-        appId: "wxc591d03d429cf06e",
-      }, 
-      {
-        name: "高德代驾",
-        icon: "/assets/高德代驾.jpg",
-        appId: "wxe56a6314f0b95129",
-      }, 
-      {
-        name: "腾讯出行",
-        icon: "/assets/腾讯出行.jpg",
-        appId: "wx65cc950f42e8fff1",
-      }, 
-      {
-        name: "南方航空",
-        icon: "/assets/南方航空.jpg",
-        appId: "wx729238547ac7a14c",
-      },  {
-        name: "东方航空",
-        icon: "/assets/东方航空.jpg",
-        appId: "wxc1d4e8f52a93da7e",
-      }, 
+        name: "苏服办",
+        icon: "/assets/苏服办.jpg",
+        appId: "wx10721f536f3e1af5",
+      },
 
-      
-      
-      
+
+      {
+        name: "江苏医保",
+        icon: "/assets/江苏医保.jpg",
+        appId: "wxed8fbfb5b4285e98",
+      },
+
+      {
+        name: "江苏人社",
+        icon: "/assets/江苏人社.jpg",
+        appId: "wx7aa6ad8c15829d96",
+      },
+      {
+        name: "江苏税务",
+        icon: "/assets/江苏税务.jpg",
+        appId: "wxc62d206c3112de5a",
+      },
+
+
+
+
+
 
     ],
     statusBarHeight: wx.getStorageSync('statusBarHeight'),
@@ -54,17 +54,8 @@ Page({
 
   navigateMP(e: any) {
     console.log(e);
-    const item = e.currentTarget.dataset.item
-    if (item.type) {
-      if (item.type === 'url') {
-        wx.navigateTo({
-          url: item.url
-        })
-      }
-      return
-    }
     wx.navigateToMiniProgram({
-      appId: item.appId,
+      appId: e.currentTarget.dataset.item.appId,
     });
   },
   onLoad() {
@@ -77,7 +68,6 @@ Page({
       });
     }
   },
-
   getUserProfile() {
     // 推荐使用wx.getUserProfile获取用户信息，开发者每次通过该接口获取用户个人信息均需用户确认，开发者妥善保管用户快速填写的头像昵称，避免重复弹窗
     wx.getUserProfile({
@@ -102,7 +92,7 @@ Page({
   onShareAppMessage() {
     return {
       title: '生活常用小助手',
-      path: '/pages/index/index',
+      path: '/pages/shopping/shopping',
     }
   },
 });

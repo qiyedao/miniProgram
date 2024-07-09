@@ -25,11 +25,7 @@ Page({
                 icon: "/assets/大麦.jpg",
                 appId: "wx938b41d0d7e8def0",
             },
-            {
-                name: "同城旅行",
-                icon: "/assets/同城旅行.jpg",
-                appId: "wx336dcaf6a1ecf632",
-            },
+           
             {
                 name: "美团",
                 icon: "/assets/美团.jpg",
@@ -46,11 +42,7 @@ Page({
                 icon: "/assets/麦当劳.jpg",
                 appId: "wx25f982a55e60a540",
             },
-            {
-                name: "上海车展",
-                icon: "/assets/上海车展.jpg",
-                appId: "wx9659f424c6057c54",
-            },
+           
 
 
         ],

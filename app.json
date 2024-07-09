@@ -9,8 +9,11 @@
         "pages/life/life",
         "pages/trip/trip",
         "pages/enjoy/enjoy",
+        "pages/express/express",
         "pages/develop/develop",
-        "pages/me/me"
+        "pages/service/service",
+        "pages/me/me",
+        "pages/tax/tax"
     ],
     "subPackages": [
         {
