@@ -34,23 +34,14 @@ Page({
         appId: "wx63e410bc2c6a792e",
       },
 
-      {
-        name: "极兔快递",
-        icon: "/assets/极兔快递.jpg",
-        appId: "wxe37801988179d0a5",
-      },
-      {
-        name: "德邦快递",
-        icon: "/assets/德邦快递.jpg",
-        appId: "wxa1ebeeb0ed47f0b2",
-      }, {
+     {
         name: "美团跑腿",
         icon: "/assets/美团跑腿.jpg",
         appId: "wx84d3c06952bb4072",
       }, {
-        name: "UU跑腿",
-        icon: "/assets/UU跑腿.jpg",
-        appId: "wx453615a79bad971f",
+        name: "顺丰同城",
+        icon: "/assets/顺丰同城.png",
+        appId: "wxc4104b171e3d1376",
       }, {
         name: "货拉拉",
         icon: "/assets/货拉拉.jpg",

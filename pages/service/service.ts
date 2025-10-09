@@ -42,7 +42,11 @@ Page({
         icon: "/assets/江苏税务.jpg",
         appId: "wxc62d206c3112de5a",
       },
-
+      {
+        name: "江苏公安",
+        icon: "/assets/江苏公安.jpg",
+        appId: "wx61ddc50aab0aac3f",
+      },
 
 
 
