@@ -13,7 +13,18 @@ Page({
         name: "顺丰快递",
         icon: "/assets/顺丰快递.jpg",
         appId: "wxd4185d00bf7e08ac",
-      }, {
+      }, 
+      {
+        name:"菜鸟裹裹",
+        icon:'/assets/菜鸟裹裹.jpg',
+        appId:'wx795bd500b21f8fee'
+      },
+      {
+        name:"达达秒送",
+        icon:'/assets/达达.jpg',
+        appId:'wxcecfde2bc765c661'
+      },
+      {
         name: "丰巢",
         icon: "/assets/丰巢.jpg",
         appId: "wxf953eb11611bb594",
